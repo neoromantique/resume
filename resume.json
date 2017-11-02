@@ -1,0 +1,214 @@
+{
+  "basics": {
+    "name": "David Aizenberg",
+    "label": "",
+    "picture": "https://neoromantique.co.uk/images/david.jpg",
+    "email": "david@aizenberg.co.uk",
+    "phone": "+37068179798",
+    "website": "http://neoromantique.co.uk",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "31230",
+      "city": "Visaginas",
+      "countryCode": "LT",
+      "region": "Central Europe"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "David Aizenberg",
+        "url": "https://www.linkedin.com/in/davidaizenberg/"
+      },
+      {
+        "network": "GitHub",
+        "username": "neoromantique",
+        "url": "https://github.com/neoromantique/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "\"E-Farm\" GmbH",
+      "position": "IT Director",
+      "website": "https://e-farm.com",
+      "startDate": "2017-07-01",
+      "endDate": "",
+      "summary": "Development, testing and refinement of project development workflows. Technical lead, architectural overview and consulting.",
+      "highlights": [
+        "Fully automated DevOps pipeline.",
+        "Constant analysis, profiling and optimisation of services."
+      ]
+    },
+    {
+      "company": "UAB \"Enginerico\"",
+      "position": "Freelance consultant",
+      "website": "enginerico.com",
+      "startDate": "2015-08-01",
+      "endDate": "",
+      "summary": "Various project based experiences, mainly revolving around Linux, JavaScript and SaaS products.",
+      "highlights": []
+    },
+    {
+      "company": "\"E-Farm\" GmbH",
+      "position": "Lead Developer ",
+      "website": "https://e-farm.com",
+      "startDate": "2016-02-01",
+      "endDate": "2016-06-30",
+      "summary": "Initial Assessment of current stack and codebase, and seamless migration to a fully rewritten architecture  ",
+      "highlights": [
+        "php -> js, monolithic -> microservices with centralised api",
+        "zero downtime maintenance and migration",
+        "introduction of testing, version control and code reviews into the workflow"
+      ]
+    },
+    {
+      "company": "\"Analytic Dashboards\" GmbH",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2015-03-01",
+      "endDate": "2015-08-01",
+      "summary": "Development of Software as a Service product.  Including choice of technology stack, platform, setting up infrastructure, and developing new features.  Job demanded to learn many new technological stacks, including: MEAN Stack, NodeJS (and different versions of), Meteor framework, Amazon Web Services(AWS) Stack, CircleCI Hosted Continuous integration service and strengthen previous knowledge in the fields like: Linux(Ubuntu), Software development process/pipeline, Networks and network planning.",
+      "highlights": []
+    },
+    {
+      "company": "UAB \"JT Company\"",
+      "position": "System Administrator",
+      "website": "",
+      "startDate": "2014-01-01",
+      "endDate": "2014-12-31",
+      "summary": "Deployment and maintenance of servers, personal computers and other peripheral devices as an outsourcer.  On-going maintenance, upgrades and deployments of client servers and workstations, including Linux, Windows and Mac OS X workstations and Linux, Windows servers.",
+      "highlights": [
+        "Troubleshooting and optimising networks",
+        "Installation and management of Linux based servers",
+        "Basic cyber security measures for office environments"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Against The Clock",
+      "publisher": "PC Gamer UK",
+      "releaseDate": "2014-10-14",
+      "website": "",
+      "summary": "Two page article about our team(of four) doing Creative Assembly game jam at EGX Rezzed 2014 "
+    }
+  ],
+  "skills": [
+    {
+      "name": "Server Architecture",
+      "level": "",
+      "keywords": [
+        "Performance monitoring/profiling",
+        "Load estimating"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": [
+        "Software management/Packaging",
+        "Monitoring"
+      ]
+    },
+    {
+      "name": "Scripting",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Bash",
+        "Lua"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": [
+        "JavaScript(nodejs)",
+        "C",
+        "PHP",
+        "OOP / Clean Code principles / DRY"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "",
+      "keywords": [
+        "tcp/ip",
+        "http",
+        "routing/bgp",
+        "firewalls"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "Cloud computing(AWS, OpenStack(juju))",
+        "Continuous Integration / Continuous Deployment",
+        "Load balancing"
+      ]
+    },
+    {
+      "name": "",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Containers",
+      "level": "",
+      "keywords": [
+        "LXC",
+        "Docker"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Lithuanian",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "German",
+      "fluency": "novice"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "EDM",
+        "Guitar",
+        "Piano",
+        "Drums"
+      ]
+    },
+    {
+      "name": "Arts",
+      "keywords": [
+        "Contemporary",
+        "Digital/Mixed Media",
+        "Architecture"
+      ]
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "Football",
+        "Boxing"
+      ]
+    }
+  ],
+  "references": []
+}
