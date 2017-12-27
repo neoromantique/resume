@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "David Aizenberg",
-    "label": "",
+    "label": "Software Developer",
     "picture": "https://neoromantique.co.uk/images/david.jpg",
     "email": "david@aizenberg.co.uk",
     "phone": "+37068179798",
-    "website": "http://neoromantique.co.uk",
-    "summary": "",
-    "location": {
+    "website": "http://aizenberg.co.uk",
+    "summary": "Passionate web developer with interest in back-end and optimisation. Currently focusing on JavaScript(nodeJS) and Go.",
+	  "location": {
       "address": "",
       "postalCode": "31230",
-      "city": "Visaginas",
+      "city": "Vilnius",
       "countryCode": "LT",
       "region": "Central Europe"
     },
@@ -27,39 +27,66 @@
       }
     ]
   },
-  "work": [
+  "skills": [
     {
-      "company": "\"E-Farm\" GmbH",
-      "position": "IT Director",
-      "website": "https://e-farm.com",
-      "startDate": "2017-07-01",
-      "endDate": "",
-      "summary": "Development, testing and refinement of project development workflows. Technical lead, architectural overview and consulting.",
-      "highlights": [
-        "Fully automated DevOps pipeline.",
-        "Constant analysis, profiling and optimisation of services."
+      "name": "Linux",
+      "level": "",
+      "keywords": [
+        "Software management/Packaging",
+        "Monitoring",
+        "Troubleshooting"
+      ]
+    },
+
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": [
+        "JavaScript/Node(Express/Angular/Meteor)",
+        "Microservices, Message Queues",
+        "Experience in working with legacy software",
+        "Scripting(Python, Ruby, Lua)",
+        "PHP"
       ]
     },
     {
-      "company": "UAB \"Enginerico\"",
-      "position": "Freelance consultant",
-      "website": "enginerico.com",
-      "startDate": "2015-08-01",
-      "endDate": "",
-      "summary": "Various project based experiences, mainly revolving around Linux, JavaScript and SaaS products.",
-      "highlights": []
+      "name": "Computer Science/Security",
+      "level": "",
+      "keywords": [
+        "Network Protocols",
+        "Routing/bgp",
+        "Firewalls",
+        "Cryptography Basics"
+      ]
     },
     {
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "Cloud computing(AWS, OpenStack)",
+        "Continuous Integration / Continuous Deployment",
+        "Integration testing/Unit Testing",
+        "Load balancing",
+        "Containers(LXC/Docker/OpenStack)",
+        "Alerts and monitoring",
+        "Cloud migration"
+      ]
+    }
+  ],
+  "work": [
+    {
       "company": "\"E-Farm\" GmbH",
-      "position": "Lead Developer ",
+      "position": "Lead Developer/CTO",
       "website": "https://e-farm.com",
       "startDate": "2016-02-01",
-      "endDate": "2016-06-30",
-      "summary": "Initial Assessment of current stack and codebase, and seamless migration to a fully rewritten architecture  ",
+      "endDate": "2017-11-30",
+      "summary": "Initial Assessment of codebase, and seamless migration to a fully rewritten architecture and new stack",
       "highlights": [
         "php -> js, monolithic -> microservices with centralised api",
         "zero downtime maintenance and migration",
-        "introduction of testing, version control and code reviews into the workflow"
+        "introduction of testing, version control and code reviews into the workflow",
+        "Fully automated DevOps pipeline.",
+        "Constant analysis, profiling and optimisation of services."
       ]
     },
     {
@@ -68,8 +95,13 @@
       "website": "",
       "startDate": "2015-03-01",
       "endDate": "2015-08-01",
-      "summary": "Development of Software as a Service product.  Including choice of technology stack, platform, setting up infrastructure, and developing new features.  Job demanded to learn many new technological stacks, including: MEAN Stack, NodeJS (and different versions of), Meteor framework, Amazon Web Services(AWS) Stack, CircleCI Hosted Continuous integration service and strengthen previous knowledge in the fields like: Linux(Ubuntu), Software development process/pipeline, Networks and network planning.",
-      "highlights": []
+      "summary": "Developed Software as a Service product.  Including choice of technology stack, platform, setting up infrastructure, and developing new features.",
+      "highlights": [
+        "MEAN Stack, NodeJS with Meteor framework(with Blaze)",
+        "DevOps pipeline on top of Amazon Web Services",
+        "Unit and Integration testing / CI",
+        "Security and networking"
+      ]
     },
     {
       "company": "UAB \"JT Company\"",
@@ -79,9 +111,10 @@
       "endDate": "2014-12-31",
       "summary": "Deployment and maintenance of servers, personal computers and other peripheral devices as an outsourcer.  On-going maintenance, upgrades and deployments of client servers and workstations, including Linux, Windows and Mac OS X workstations and Linux, Windows servers.",
       "highlights": [
-        "Troubleshooting and optimising networks",
+        "Troubleshooting and planning of network for 30 machines",
         "Installation and management of Linux based servers",
-        "Basic cyber security measures for office environments"
+        "Basic cyber security measures for office environments, firewalls, private networks",
+        "On-going phone support contract for emergencies for 2 years after quiting position"
       ]
     }
   ],
@@ -97,79 +130,10 @@
       "summary": "Two page article about our team(of four) doing Creative Assembly game jam at EGX Rezzed 2014 "
     }
   ],
-  "skills": [
-    {
-      "name": "Server Architecture",
-      "level": "",
-      "keywords": [
-        "Performance monitoring/profiling",
-        "Load estimating"
-      ]
-    },
-    {
-      "name": "Linux",
-      "level": "",
-      "keywords": [
-        "Software management/Packaging",
-        "Monitoring"
-      ]
-    },
-    {
-      "name": "Scripting",
-      "level": "",
-      "keywords": [
-        "Python",
-        "Bash",
-        "Lua"
-      ]
-    },
-    {
-      "name": "Software Development",
-      "level": "",
-      "keywords": [
-        "JavaScript(nodejs)",
-        "C",
-        "PHP",
-        "OOP / Clean Code principles / DRY"
-      ]
-    },
-    {
-      "name": "Networking",
-      "level": "",
-      "keywords": [
-        "tcp/ip",
-        "http",
-        "routing/bgp",
-        "firewalls"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "",
-      "keywords": [
-        "Cloud computing(AWS, OpenStack(juju))",
-        "Continuous Integration / Continuous Deployment",
-        "Load balancing"
-      ]
-    },
-    {
-      "name": "",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Containers",
-      "level": "",
-      "keywords": [
-        "LXC",
-        "Docker"
-      ]
-    }
-  ],
   "languages": [
     {
       "language": "Russian",
-      "fluency": "Native"
+      "fluency": "Native Speaker"
     },
     {
       "language": "English",
@@ -181,33 +145,7 @@
     },
     {
       "language": "German",
-      "fluency": "novice"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Music",
-      "keywords": [
-        "EDM",
-        "Guitar",
-        "Piano",
-        "Drums"
-      ]
-    },
-    {
-      "name": "Arts",
-      "keywords": [
-        "Contemporary",
-        "Digital/Mixed Media",
-        "Architecture"
-      ]
-    },
-    {
-      "name": "Sport",
-      "keywords": [
-        "Football",
-        "Boxing"
-      ]
+      "fluency": "Novice"
     }
   ],
   "references": []
