@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "David Aizenberg",
-    "label": "Software Developer",
+    "label": "System Engineer",
     "picture": "https://neoromantique.co.uk/images/david.jpg",
     "email": "david@aizenberg.co.uk",
     "phone": "+37068179798",
     "website": "http://aizenberg.co.uk",
-    "summary": "System Engineer ",
+    "summary": "System Engineer",
     "location": {
     	"address": "",
     	"postalCode": "31230",
@@ -105,14 +105,6 @@
   "volunteer": [],
   "education": [],
   "awards": [],
-  "publications": [
-    {
-      "name": "Against The Clock",
-      "publisher": "PC Gamer UK",
-      "releaseDate": "2014-10-14",
-      "summary": "Two page article in PC Gamer UK about our performance at Creative Assembly game jam at EGX Rezzed 2014 "
-    }
-  ],
   "languages": [
     {
       "language": "Russian",
