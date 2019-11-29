@@ -6,7 +6,8 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
-    "gulp-resume": "^0.2.0"
+    "gulp-resume": "^0.2.0",
+    "jsonresume-theme-onepage": "0.0.3"
   },
   "devDependencies": {},
   "scripts": {
