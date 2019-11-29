@@ -6,13 +6,13 @@
     "email": "david@aizenberg.co.uk",
     "phone": "+37068179798",
     "website": "http://aizenberg.co.uk",
-    "summary": "Passionate web developer with interest in back-end and optimisation. Currently focusing on JavaScript(nodeJS) and Go.",
-	  "location": {
-      "address": "",
-      "postalCode": "31230",
-      "city": "Vilnius",
-      "countryCode": "LT",
-      "region": "Central Europe"
+    "summary": "System Engineer ",
+    "location": {
+    	"address": "",
+    	"postalCode": "31230",
+    	"city": "Vilnius",
+    	"countryCode": "LT",
+    	"region": "Central Europe"
     },
     "profiles": [
       {
@@ -32,61 +32,46 @@
       "name": "Linux",
       "level": "",
       "keywords": [
-        "Software management/Packaging",
-        "Monitoring",
-        "Troubleshooting"
-      ]
-    },
-
-    {
-      "name": "Software Development",
-      "level": "",
-      "keywords": [
-        "JavaScript/Node(Express/Angular/Meteor)",
-        "Microservices, Message Queues",
-        "Experience in working with legacy software",
-        "Scripting(Python, Ruby, Lua)",
-        "PHP"
+        "Software Management and Packaging (deb packages, snapcraft, init systems)",
+        "Troubleshooting and Tracing (ftrace, strace, tcpdump, perf)",
+        "Containers and Orchestration(docker, docker-compose, lxd)",
+        "Load Balancing and Caching Proxies (nginx, haproxy)",
+        "Cloud Computing (aws, opennebula)",
+        "Scripting (bash, python)",
+        "Logging (timber, loggly)"
       ]
     },
     {
-      "name": "Computer Science/Security",
-      "level": "",
       "keywords": [
-        "Network Protocols",
-        "Routing/bgp",
-        "Firewalls",
-        "Cryptography Basics"
-      ]
+        "Software development with Node.JS and Python",
+        "Message Brokers (kafka, rabbitmq)",
+        "Support and refactoring of legacy codebases (php, js, elixir) ",
+        "Databases (mongodb, mysql)"
+      ],
+      "name": "Software Development"
     },
     {
-      "name": "DevOps",
-      "level": "",
       "keywords": [
-        "Cloud computing(AWS, OpenStack)",
-        "Continuous Integration / Continuous Deployment",
-        "Integration testing/Unit Testing",
-        "Load balancing",
-        "Containers(LXC/Docker/OpenStack)",
-        "Alerts and monitoring",
-        "Cloud migration"
-      ]
+        "Configuration of Network Equipment",
+        "Log and dump analysis (awk, sed, grep)",
+        "Component level electronic repair"
+      ],
+      "name": "Computer Systems"
     }
   ],
   "work": [
     {
       "company": "\"E-Farm\" GmbH",
-      "position": "Lead Developer",
-      "website": "https://e-farm.com",
+      "position": "Software Developer / DevOps Engineer",
       "startDate": "2016-02-01",
-      "endDate": "2017-11-30",
-      "summary": "Initial Assessment of codebase, and seamless migration to a fully rewritten architecture and new stack",
+      "endDate": "2020-02-01",
       "highlights": [
-        "php -> js, monolithic -> microservices with centralised api",
-        "zero downtime maintenance and migration",
-        "introduction of testing, version control and code reviews into the workflow",
-        "Fully automated DevOps pipeline.",
-        "Constant analysis, profiling and optimisation of services."
+        "Assesment of code base, code reviews",
+        "Incident Response and On Call support",
+        "Automation and work flow improvement",
+        "Troubleshooting and performance analysis",
+        "Maintenance of infrastructure",
+        "Data and user migration from legacy apps and onto a new stack"
       ]
     },
     {
@@ -97,10 +82,9 @@
       "endDate": "2015-08-01",
       "summary": "Developed Software as a Service product.  Including choice of technology stack, platform, setting up infrastructure, and developing new features.",
       "highlights": [
-        "MEAN Stack, NodeJS with Meteor framework(with Blaze)",
-        "DevOps pipeline on top of Amazon Web Services",
-        "Unit and Integration testing / CI",
-        "Security and networking"
+        "Full Stack Development of SaaS product with MEAN Stack and Meteor framework",
+        "Automation",
+        "Code Reviews and management of two working students"
       ]
     },
     {
@@ -109,12 +93,12 @@
       "website": "",
       "startDate": "2014-01-01",
       "endDate": "2014-12-31",
-      "summary": "Deployment and maintenance of servers, personal computers and other peripheral devices as an outsourcer.  On-going maintenance, upgrades and deployments of client servers and workstations, including Linux, Windows and Mac OS X workstations and Linux, Windows servers.",
+      "summary": "Deployment and maintenance of servers, personal computers and peripheral devices as an outsourcer.  On-going maintenance, upgrades and deployments of client servers and workstations, including Linux, Windows and Mac OS X workstations and Linux, Windows servers.",
       "highlights": [
-        "Troubleshooting and planning of network for 30 machines",
-        "Installation and management of Linux based servers",
-        "Basic cyber security measures for office environments, firewalls, private networks",
-        "On-going phone support contract for emergencies for 2 years after quiting position"
+        "On-going maintenance, updates and assistance with Linux, Windows and Mac OS X workstations",
+        "Deployment and maintenance of Linux Servers",
+        "Education and implementation of basic security measures, such as firewalls, private networks",
+        "Hardware troubleshooting and repair"
       ]
     }
   ],
@@ -126,8 +110,7 @@
       "name": "Against The Clock",
       "publisher": "PC Gamer UK",
       "releaseDate": "2014-10-14",
-      "website": "",
-      "summary": "Two page article about our team(of four) doing Creative Assembly game jam at EGX Rezzed 2014 "
+      "summary": "Two page article in PC Gamer UK about our performance at Creative Assembly game jam at EGX Rezzed 2014 "
     }
   ],
   "languages": [
@@ -142,10 +125,6 @@
     {
       "language": "Lithuanian",
       "fluency": "Advanced"
-    },
-    {
-      "language": "German",
-      "fluency": "Novice"
     }
   ],
   "references": []
