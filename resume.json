@@ -8,11 +8,11 @@
     "website": "http://aizenberg.co.uk",
     "summary": "DevOps Engineer",
     "location": {
-    	"address": "",
-    	"postalCode": "07230",
-    	"city": "Vilnius",
-    	"countryCode": "LT",
-    	"region": "Central Europe"
+      "address": "",
+      "postalCode": "07230",
+      "city": "Vilnius",
+      "countryCode": "LT",
+      "region": "Central Europe"
     },
     "profiles": [
       {
@@ -30,9 +30,9 @@
   "skills": [
     {
       "name": "Linux",
-      "level": "",
       "keywords": [
         "Software Management and Packaging (deb packages, snapcraft, init systems)",
+        "CI/CD and Configuration Management (CircleCI, Drone.io, Ansible)",
         "Troubleshooting and Tracing (ftrace, strace, tcpdump, perf)",
         "Containers and Orchestration(docker, docker-compose, lxd)",
         "Load Balancing and Caching Proxies (nginx, haproxy)",
@@ -42,21 +42,21 @@
       ]
     },
     {
+      "name": "Software Development",
       "keywords": [
-        "Software development with Node.JS and Python",
+        "Software development(NodeJS, Python, Go)",
         "Message Brokers (kafka, rabbitmq)",
-        "Support and refactoring of legacy codebases (php, js, elixir) ",
+        "Support and refactoring of legacy code bases (php, js, elixir) ",
         "Databases (mongodb, mysql)"
-      ],
-      "name": "Software Development"
+      ]
     },
     {
+      "name": "Computer Systems",
       "keywords": [
         "Configuration of Network Equipment",
         "Log and dump analysis (awk, sed, grep)",
-        "Component level electronic repair"
-      ],
-      "name": "Computer Systems"
+        "Component level electronics repair"
+      ]
     }
   ],
   "work": [
@@ -66,7 +66,7 @@
       "startDate": "2016-02-01",
       "endDate": "2020-01-31",
       "highlights": [
-        "Assesment of code base, code reviews",
+        "Assessment of code base, code reviews",
         "Incident Response and On Call support",
         "Automation and work flow improvement",
         "Troubleshooting and performance analysis",
@@ -77,7 +77,6 @@
     {
       "company": "\"Analytic Dashboards\" GmbH",
       "position": "Software Developer",
-      "website": "",
       "startDate": "2015-03-01",
       "endDate": "2015-08-01",
       "summary": "Developed Software as a Service product.  Including choice of technology stack, platform, setting up infrastructure, and developing new features.",
@@ -90,10 +89,9 @@
     {
       "company": "UAB \"JT Company\"",
       "position": "System Administrator",
-      "website": "",
       "startDate": "2014-01-01",
       "endDate": "2014-12-31",
-      "summary": "Deployment and maintenance of servers, personal computers and peripheral devices as an outsourcer.  On-going maintenance, upgrades and deployments of client servers and workstations, including Linux, Windows and Mac OS X workstations and Linux, Windows servers.",
+      "summary": "Deployment and maintenance of servers, personal computers and peripheral devices.  On-going maintenance, upgrades and deployments of client servers and workstations, including Linux, Windows and Mac OS X workstations and Linux, Windows servers.",
       "highlights": [
         "On-going maintenance, updates and assistance with Linux, Windows and Mac OS X workstations",
         "Deployment and maintenance of Linux Servers",
@@ -102,9 +100,6 @@
       ]
     }
   ],
-  "volunteer": [],
-  "education": [],
-  "awards": [],
   "languages": [
     {
       "language": "Russian",
@@ -118,6 +113,5 @@
       "language": "Lithuanian",
       "fluency": "Advanced"
     }
-  ],
-  "references": []
+  ]
 }
