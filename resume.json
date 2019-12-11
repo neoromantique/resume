@@ -44,7 +44,7 @@
     {
       "name": "Software Development",
       "keywords": [
-        "Software development(NodeJS, Python, Golang, Elm)",
+        "Software development(NodeJS, Python, Golang)",
         "Version Control (git)",
         "Message Brokers (kafka, rabbitmq)",
         "On-going support and maintenance of legacy code bases (php, js, python) ",
