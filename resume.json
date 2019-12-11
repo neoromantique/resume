@@ -11,7 +11,7 @@
       "address": "",
       "postalCode": "07230",
       "city": "Vilnius",
-      "countryCode": "LT",
+      "countryCode": "LT"
     },
     "profiles": [
       {
@@ -98,8 +98,6 @@
         "Hardware troubleshooting and repair"
       ]
     }
-  ],
-  "education": [
   ],
   "languages": [
     {
