@@ -6,9 +6,8 @@
     "email": "david@aizenberg.co.uk",
     "phone": "+37068179798",
     "website": "http://aizenberg.co.uk",
-    "summary": "DevOps Engineer",
+    "summary": "Solution oriented engineer with hands on approach, Uncompromising will to learn and “can do” attitude.",
     "location": {
-      "address": "",
       "postalCode": "07230",
       "city": "Vilnius",
       "countryCode": "LT"
@@ -31,10 +30,12 @@
       "name": "Linux",
       "keywords": [
         "Software Management and Packaging (deb packages, snapcraft, init systems)",
+        "Application building pipelines (npm, pip, makefile)",
         "CI/CD and Configuration Management (CircleCI, Drone.io, Ansible)",
         "Troubleshooting and Tracing (ftrace, strace, tcpdump, perf)",
         "Containers and Orchestration(docker, docker-compose, lxd)",
-        "Load Balancing and Caching Proxies (nginx, haproxy)",
+        "Load Balancing and Caching Proxies (nginx, haproxy, traefik)",
+        "Log and dump analysis (awk, sed, grep)",
         "Cloud Computing (aws, opennebula)",
         "Scripting (bash, python)",
         "Logging (timber, loggly)"
@@ -43,18 +44,11 @@
     {
       "name": "Software Development",
       "keywords": [
-        "Software development(NodeJS, Python, Go)",
+        "Software development(NodeJS, Python, Golang, Elm)",
+        "Version Control (git)",
         "Message Brokers (kafka, rabbitmq)",
-        "Support and refactoring of legacy code bases (php, js, elixir) ",
+        "On-going support and maintenance of legacy code bases (php, js, python) ",
         "Databases (mongodb, mysql)"
-      ]
-    },
-    {
-      "name": "Computer Systems",
-      "keywords": [
-        "Configuration of Network Equipment",
-        "Log and dump analysis (awk, sed, grep)",
-        "Component level electronics repair"
       ]
     }
   ],
@@ -65,12 +59,11 @@
       "startDate": "2016-02-01",
       "endDate": "2020-01-31",
       "highlights": [
-        "Assessment of code base, code reviews",
-        "Incident Response and On Call support",
-        "Automation and work flow improvement",
+        "Initial Assessment of code base",
+        "Introduction of various workflow improvements(Code reviews, version control, automation)",
         "Troubleshooting and performance analysis",
-        "Maintenance of infrastructure",
-        "Data and user migration from legacy apps and onto a new stack"
+        "Infrastructure maintenance",
+        "Live User Data migration from legacy apps onto a new stack"
       ]
     },
     {
@@ -95,7 +88,8 @@
         "On-going maintenance, updates and assistance with Linux, Windows and Mac OS X workstations",
         "Deployment and maintenance of Linux Servers",
         "Education and implementation of basic security measures, such as firewalls, private networks",
-        "Hardware troubleshooting and repair"
+        "Configuration of Network Equipment",
+        "Component level electronics repair"
       ]
     }
   ],
