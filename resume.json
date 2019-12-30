@@ -44,7 +44,7 @@
     {
       "name": "Software Development",
       "keywords": [
-        "Software development(NodeJS, Python, Golang)",
+        "Software development(NodeJS, Python)",
         "Version Control (git)",
         "Message Brokers (kafka, rabbitmq)",
         "On-going support and maintenance of legacy code bases (php, js, python) ",
@@ -58,12 +58,14 @@
       "position": "Software Developer / DevOps Engineer",
       "startDate": "2016-02-01",
       "endDate": "2020-01-31",
+      "summary": "Development and on-going support of various internal applications, assembly and management of a remote team",
       "highlights": [
-        "Initial Assessment of code base",
+        "Assessment and evaluation of code and architecture",
         "Introduction of various workflow improvements(Code reviews, version control, automation)",
-        "Troubleshooting and performance analysis",
-        "Infrastructure maintenance",
-        "Live User Data migration from legacy apps onto a new stack"
+        "Troubleshooting and on-going performance optimization",
+        "Breaking up of a monolithic application into lean microservice based architecture",
+        "On-premise and cloud infrastructure maintenance",
+        "Live User data migration from legacy apps onto a new stack"
       ]
     },
     {
@@ -71,7 +73,7 @@
       "position": "Software Developer",
       "startDate": "2015-03-01",
       "endDate": "2015-08-01",
-      "summary": "Developed Software as a Service product.  Including choice of technology stack, platform, setting up infrastructure, and developing new features.",
+      "summary": "Development of Software as a Service product.  Including choice of technology stack, platform, setting up infrastructure, and developing new features.",
       "highlights": [
         "Full Stack Development of SaaS product with MEAN Stack and Meteor framework",
         "Automation",
