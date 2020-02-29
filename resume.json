@@ -6,7 +6,7 @@
     "email": "david@aizenberg.co.uk",
     "phone": "+37068179798",
     "website": "http://aizenberg.co.uk",
-    "summary": "Solution oriented engineer with hands on approach, uncompromising will to learn and “can do” attitude.",
+    "summary": "DevOps Engineer with six years of technical experience, which incudes in-depth technical knowledge of Linux based servers. Extensive hands-on experience with building robust and scalable systems & automation.",
     "location": {
       "postalCode": "07230",
       "city": "Vilnius",
@@ -30,13 +30,12 @@
       "name": "Linux",
       "keywords": [
         "Software Management and Packaging (deb packages, snapcraft, init systems)",
-        "Application building pipelines (npm, pip, makefile)",
         "CI/CD and Configuration Management (CircleCI, Drone.io, Ansible)",
         "Troubleshooting and Tracing (ftrace, strace, tcpdump, perf)",
-        "Containers and Orchestration(docker, docker-compose, lxd)",
+        "Containers and Orchestration (docker, docker-compose, lxd, terraform)",
         "Load Balancing and Caching Proxies (nginx, haproxy, traefik)",
         "Log and dump analysis (awk, sed, grep)",
-        "Cloud Computing (aws, opennebula)",
+        "Cloud Computing (aws ec2/s3/cf/eks/ecr)",
         "Scripting (bash, python)",
         "Logging (timber, loggly)"
       ]
@@ -44,7 +43,7 @@
     {
       "name": "Software Development",
       "keywords": [
-        "Software development(NodeJS, Python)",
+        "Software development (NodeJS, Python)",
         "Version Control (git)",
         "Message Brokers (kafka, rabbitmq)",
         "On-going support and maintenance of legacy code bases (php, js, python) ",
@@ -58,14 +57,13 @@
       "position": "Software Developer / DevOps Engineer",
       "startDate": "2016-02-01",
       "endDate": "2020-01-31",
-      "summary": "Development and on-going support of various internal applications, assembly and management of a remote team",
+      "summary": "Development and support of various internal applications, management of a remote team",
       "highlights": [
-        "Assessment and evaluation of code and architecture",
-        "Introduction of various workflow improvements(Code reviews, version control, automation)",
-        "Troubleshooting and on-going performance optimization",
+        "Introduction of modern software development practices into the team workflow",
+        "Troubleshooting and performance optimization",
         "Breaking up of a monolithic application into lean microservice based architecture",
-        "On-premise and cloud infrastructure maintenance",
-        "Live User data migration from legacy apps onto a new stack"
+        "On premise and cloud infrastructure maintenance",
+        "CI/CD & Misc automation"
       ]
     },
     {
@@ -73,11 +71,11 @@
       "position": "Software Developer",
       "startDate": "2015-03-01",
       "endDate": "2015-08-01",
-      "summary": "Development of Software as a Service product.  Including choice of technology stack, platform, setting up infrastructure, and developing new features.",
+      "summary": "Development of Software as a Service product. Including choice of technology stack, platform, setting up infrastructure, and developing new features",
       "highlights": [
         "Full Stack Development of SaaS product with MEAN Stack and Meteor framework",
-        "Automation",
-        "Code Reviews and management of two working students"
+        "Automated provisioning with Ansible",
+        "Code Reviews and management of working students"
       ]
     },
     {
@@ -85,11 +83,11 @@
       "position": "System Administrator",
       "startDate": "2014-01-01",
       "endDate": "2014-12-31",
-      "summary": "Deployment and maintenance of servers, personal computers and peripheral devices.  On-going maintenance, upgrades and deployments of client servers and workstations, including Linux, Windows and Mac OS X workstations and Linux, Windows servers.",
+      "summary": "Deployment and maintenance of servers, personal computers and peripheral devices",
       "highlights": [
-        "On-going maintenance, updates and assistance with Linux, Windows and Mac OS X workstations",
+        "Ongoing maintenance, updates and assistance with Linux, Windows and Mac OS X workstations",
         "Deployment and maintenance of Linux Servers",
-        "Education and implementation of basic security measures, such as firewalls, private networks",
+        "Introduction and implementation of basic security measures, such as firewalls, private networks",
         "Configuration of Network Equipment",
         "Component level electronics repair"
       ]
@@ -97,11 +95,11 @@
   ],
   "languages": [
     {
-      "language": "Russian",
-      "fluency": "Native Speaker"
+      "language": "English",
+      "fluency": "Fluent"
     },
     {
-      "language": "English",
+      "language": "Russian",
       "fluency": "Fluent"
     },
     {
