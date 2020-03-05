@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "David Aizenberg",
-    "label": "DevOps Engineer",
+    "label": "Software Engineer",
     "picture": "https://neoromantique.co.uk/images/david.jpg",
     "email": "david@aizenberg.co.uk",
     "phone": "+37068179798",
     "website": "http://aizenberg.co.uk",
-    "summary": "DevOps Engineer with six years of technical experience, which incudes in-depth technical knowledge of Linux based servers. Extensive hands-on experience with building robust and scalable systems & automation.",
+    "summary": "Software Engineer with six years of technical experience, with a heavy focus on back-end and operations. Extensive hands-on experience with building robust and scalable systems & automation.",
     "location": {
       "postalCode": "07230",
-      "city": "Vilnius",
-      "countryCode": "LT"
+      "city": "Birmingham",
+      "countryCode": "United Kingdom"
     },
     "profiles": [
       {
@@ -27,7 +27,7 @@
   },
   "skills": [
     {
-      "name": "Linux",
+      "name": "System Administration",
       "keywords": [
         "Software Management and Packaging (deb packages, snapcraft, init systems)",
         "CI/CD and Configuration Management (CircleCI, Drone.io, Ansible)",
@@ -44,9 +44,11 @@
       "name": "Software Development",
       "keywords": [
         "Software development (NodeJS, Python)",
+	"Front-End JavaScript (DOM, Event Loop, REST)",
+	"Security Topics (CSRF, XSS, etc)",
         "Version Control (git)",
         "Message Brokers (kafka, rabbitmq)",
-        "On-going support and maintenance of legacy code bases (php, js, python) ",
+        "Maintenance of legacy code bases (php, js, python) ",
         "Databases (mongodb, mysql)"
       ]
     }

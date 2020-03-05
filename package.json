@@ -7,10 +7,12 @@
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-resume": "^0.2.0",
-    "jsonresume-theme-onepage": "0.0.3"
+    "jsonresume-theme-onepage": "0.0.3",
+    "kcv-theme-moon": "^1.7.22"
   },
   "devDependencies": {},
   "scripts": {
+    "build": "resume export --theme onepage resume.html", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
