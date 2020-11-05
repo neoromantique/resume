@@ -5,14 +5,18 @@
     "picture": "https://neoromantique.co.uk/images/david.jpg",
     "email": "david@aizenberg.co.uk",
     "phone": "+37068179798",
-    "website": "http://aizenberg.co.uk",
-    "summary": "Software Engineer with six years of technical experience, with a heavy focus on back-end and operations. Extensive hands-on experience with building robust and scalable systems & automation.",
+    "website": "https://www.aizenberg.co.uk",
+    "summary": "Software Engineer with a heavy focus on operations, hands-on approach and experience building robust and scalable systems",
     "location": {
-      "postalCode": "NN1",
       "city": "Vilnius",
       "countryCode": "Lithuania"
     },
     "profiles": [
+      {
+        "network": "Personal Website",
+        "username": "David Aizenberg",
+        "url": "https://www.aizenberg.co.uk/"
+      },
       {
         "network": "LinkedIn",
         "username": "David Aizenberg",
@@ -29,33 +33,47 @@
     {
       "name": "System Administration",
       "keywords": [
-        "Software Management and Packaging (deb packages, snapcraft, init systems)",
-        "CI/CD and Configuration Management (CircleCI, Drone.io, Ansible)",
-        "Troubleshooting and Tracing (ftrace, strace, tcpdump, perf)",
-        "Containers and Orchestration (docker, docker-compose, lxd, terraform)",
-        "Load Balancing and Caching Proxies (nginx, haproxy, traefik)",
-        "Log and dump analysis (awk, sed, grep)",
-        "Cloud Computing (aws ec2/s3/cf/eks/ecr)",
-        "Scripting (bash, python)",
-        "Logging (timber, loggly)"
+        "Software Management and Packaging",
+        "CI/CD and Configuration Management",
+        "Troubleshooting and Tracing",
+        "Containers and Orchestration",
+        "Load Balancing and Caching Proxies",
+        "Log and dump analysis",
+        "Cloud Computing",
+        "Networking",
+        "Scripting",
+        "Logging"
       ]
     },
     {
       "name": "Software Development",
       "keywords": [
-        "Software development (NodeJS, Python)",
-	"Front-End JavaScript (DOM, Event Loop, REST)",
-	"Security Topics (CSRF, XSS, etc)",
-        "Version Control (git)",
-        "Message Brokers (kafka, rabbitmq)",
-        "Maintenance of legacy code bases (php, js, python) ",
-        "Databases (mongodb, mysql)"
+        "Software development",
+        "Front-End JavaScript",
+        "Security Topics",
+        "Version Control",
+        "Message Brokers",
+        "Maintenance of legacy code bases",
+        "Databases"
       ]
     }
   ],
   "work": [
     {
-      "company": "\"E-Farm\" GmbH",
+      "company": "SecurEdge Networks (Charlotte, NC, USA)",
+      "position": "Software Developer",
+      "startDate": "2020-04-01",
+      "endDate": null,
+      "summary": "Development of software using NodeJS and Python",
+      "highlights": [
+        "Standartisation of deployment between environments using Docker containers",
+        "E2E Testing using pytest, tavern and selenium",
+        "Development of auxiliary utilities for support engineers, both CLI and Web based",
+        "Authentication, Authorization and Accounting, 802.1X, EAP & RADIUS"
+      ]
+    },
+    {
+      "company": "\"E-Farm\" GmbH (Hamburg, Germany)",
       "position": "Software Developer / DevOps Engineer",
       "startDate": "2016-02-01",
       "endDate": "2020-01-31",
@@ -69,28 +87,27 @@
       ]
     },
     {
-      "company": "\"Analytic Dashboards\" GmbH",
+      "company": "\"ADB\" GmbH (Hamburg, Germany)",
       "position": "Software Developer",
       "startDate": "2015-03-01",
       "endDate": "2015-08-01",
       "summary": "Development of Software as a Service product. Including choice of technology stack, platform, setting up infrastructure, and developing new features",
       "highlights": [
         "Full Stack Development of SaaS product with MEAN Stack and Meteor framework",
-        "Automated provisioning with Ansible",
-        "Code Reviews and management of working students"
+        "Code Reviews"
       ]
     },
     {
-      "company": "UAB \"JT Company\"",
+      "company": "UAB \"JT Company\" (Visaginas, Lithuania)",
       "position": "System Administrator",
       "startDate": "2014-01-01",
       "endDate": "2014-12-31",
       "summary": "Deployment and maintenance of servers, personal computers and peripheral devices",
       "highlights": [
-        "Ongoing maintenance, updates and assistance with Linux, Windows and Mac OS X workstations",
+        "Maintenance, updates and assistance with Linux, Windows and Mac OS X workstations",
         "Deployment and maintenance of Linux Servers",
-        "Introduction and implementation of basic security measures, such as firewalls, private networks",
-        "Configuration of Network Equipment",
+        "Planing and implementation of security protocols, firewalls, private networks",
+        "Configuration of network equipment",
         "Component level electronics repair"
       ]
     }
