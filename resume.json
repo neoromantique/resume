@@ -79,13 +79,11 @@
       "endDate": "2020-01-31",
       "summary": "Hybrid (On-Prem and Cloud) infrastructure maintenance",
       "highlights": [
-        "Performance & Security notifications",
-        "Log collection and analysis",
+        "Performance and Security notifications, log collection and analysis",
         "Docker based development and deployment",
         "Isolated network Environments and encrypted tunnels between deployments",
         "Incident response & Reduced functionality failsafe applications",
-        "CI/CD & Misc automation",
-        "Blue-green deployments"
+        "Docker based CI/CD, Blue-green deployments, miscellaneous developer tooling and automation"
       ]
     },
     {
@@ -122,9 +120,8 @@
       "highlights": [
         "Maintenance, updates and assistance with Linux, Windows and Mac OS X workstations",
         "Deployment and maintenance of Linux Servers",
-        "Planing and implementation of security protocols, firewalls, private networks",
-        "Configuration of network equipment",
-        "Component level electronics repair"
+        "Planing and implementation of security protocols, firewalls, private networks, configuration of network equipment",
+        "Component level electronics diagnostics and repair"
       ]
     }
   ],
