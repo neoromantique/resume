@@ -60,13 +60,13 @@
   ],
   "work": [
     {
-      "company": "SecurEdge Networks (Charlotte, NC, USA)",
-      "position": "Software Developer",
+      "company": "[Consulting] SecurEdge Networks (Charlotte, NC, USA)",
+      "position": "Software Consultant",
       "startDate": "2020-04-01",
       "endDate": null,
       "summary": "Development of software using NodeJS and Python",
       "highlights": [
-        "Standartisation of deployment between environments using Docker containers",
+        "Streamlining of deployment between environments using Docker containers",
         "E2E Testing using pytest, tavern and selenium",
         "Development of auxiliary utilities for support engineers, both CLI and Web based",
         "Authentication, Authorization and Accounting, 802.1X, EAP & RADIUS"
@@ -74,16 +74,32 @@
     },
     {
       "company": "\"E-Farm\" GmbH (Hamburg, Germany)",
-      "position": "Software Developer / DevOps Engineer",
-      "startDate": "2016-02-01",
+      "position": "DevOps Engineer",
+      "startDate": "2018-01-31",
       "endDate": "2020-01-31",
+      "summary": "Hybrid (On-Prem and Cloud) infrastructure maintenance",
+      "highlights": [
+        "Performance & Security notifications",
+        "Log collection and analysis",
+        "Docker based development and deployment",
+        "Isolated network Environments and encrypted tunnels between deployments",
+        "Incident response & Reduced functionality failsafe applications",
+        "CI/CD & Misc automation",
+        "Blue-green deployments"
+      ]
+    },
+    {
+      "company": "\"E-Farm\" GmbH (Hamburg, Germany)",
+      "position": "Lead Developer",
+      "startDate": "2016-02-01",
+      "endDate": "2018-01-31",
       "summary": "Development and support of various internal applications, management of a remote team",
       "highlights": [
-        "Introduction of modern software development practices into the team workflow",
-        "Troubleshooting and performance optimization",
-        "Breaking up of a monolithic application into lean microservice based architecture",
-        "On premise and cloud infrastructure maintenance",
-        "CI/CD & Misc automation"
+        "Introduction of modern software development practices into the team workflow [git, CI/CD, Testing, Developer Environments, PITR]",
+        "Troubleshooting and performance profiling",
+        "Single Source of Truth & Point of Entry API",
+        "Breaking up of a monolith application into lean micro-service based architecture",
+        "Speed up of time sensitive user interactions by utilizing message queues and stateless micro-services"
       ]
     },
     {
