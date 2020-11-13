@@ -80,7 +80,6 @@
       "summary": "Hybrid (On-Prem and Cloud) infrastructure maintenance",
       "highlights": [
         "Performance and Security notifications, log collection and analysis",
-        "Docker based development and deployment",
         "Isolated network Environments and encrypted tunnels between deployments",
         "Incident response & Reduced functionality failsafe applications",
         "Docker based CI/CD, Blue-green deployments, miscellaneous developer tooling and automation"
@@ -98,17 +97,6 @@
         "Single Source of Truth & Point of Entry API",
         "Breaking up of a monolith application into lean micro-service based architecture",
         "Speed up of time sensitive user interactions by utilizing message queues and stateless micro-services"
-      ]
-    },
-    {
-      "company": "\"ADB\" GmbH (Hamburg, Germany)",
-      "position": "Software Developer",
-      "startDate": "2015-03-01",
-      "endDate": "2015-08-01",
-      "summary": "Development of Software as a Service product. Including choice of technology stack, platform, setting up infrastructure, and developing new features",
-      "highlights": [
-        "Full Stack Development of SaaS product with MEAN Stack and Meteor framework",
-        "Code Reviews"
       ]
     },
     {
