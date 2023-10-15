@@ -2,20 +2,15 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-rename": "^2.0.0",
-    "gulp-resume": "^0.4.4",
-    "gulp-watch": "^5.0.1",
-    "jsonresume-theme-onepage": "0.0.3",
-    "kcv-theme-moon": "^1.7.22"
+    "jsonresume-theme-onepage": "^0.0.3",
+    "resume-cli": "^3.0.8"
   },
   "scripts": {
-    "build": "gulp resume",
-    "stream": "nodemon --exec gulp resume",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html": "npx resume-cli export --theme jsonresume-theme-onepage index.html",
+    "pdf": "npx resume-cli export --theme jsonresume-theme-onepage resume.pdf",
+    "watch": "npx resume-cli serve --theme jsonresume-theme-onepage"
   },
-  "author": "",
+  "author": "David Aizenberg",
   "license": "ISC"
 }
