@@ -31,6 +31,9 @@ jobs:
           --enable-local-file-access \
           --page-size A4 \
           --dpi 300 \
+          --zoom 1.0 \
+          --image-dpi 600 \
+          --image-quality 100 \
           --margin-top 5 \
           --margin-bottom 5 \
           --margin-left 5 \
