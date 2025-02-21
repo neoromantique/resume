@@ -2,46 +2,48 @@ name: Generate Resume PDF
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
     paths:
-      - 'README.md'
+      - 'improved-resume.md'
       - 'style.css'
-  workflow_dispatch:
+  workflow_dispatch:  # Allow manual triggering
 
 jobs:
-  build-pdf:
+  generate-pdf:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: read
     
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
     
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y pandoc wkhtmltopdf fonts-liberation
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ghcr.io
+        username: ${{ github.repository_owner }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     
-    - name: Generate PDF
+    - name: Pull Docker image
+      run: docker pull ghcr.io/${{ github.repository_owner }}/resume-generator:latest || echo "Image not found, might need to run Docker build workflow first"
+    
+    - name: Generate Resume PDF
       run: |
-        # Convert markdown to HTML
-        pandoc README.md -s -c style.css --metadata pagetitle="David Aizenberg Resume" -o resume.html
+        mkdir -p ./output
+        chmod 777 ./output
         
-        # Convert HTML to PDF
-        wkhtmltopdf \
-          --enable-local-file-access \
-          --page-size A4 \
-          --dpi 300 \
-          --zoom 1.0 \
-          --image-dpi 600 \
-          --image-quality 100 \
-          --margin-top 5 \
-          --margin-bottom 5 \
-          --margin-left 5 \
-          --margin-right 5 \
-          --print-media-type \
-          --no-background \
-          --disable-smart-shrinking \
-          resume.html david-aizenberg-resume.pdf
+        docker run --rm \
+          -v $(pwd):/resume \
+          -v $(pwd)/output:/output \
+          ghcr.io/${{ github.repository_owner }}/resume-generator:latest \
+          improved-resume.md \
+          /output/david-aizenberg-resume.pdf \
+          style.css
+        
+        # Check the output
+        ls -la ./output
     
     - name: Get current date
       id: date
@@ -56,8 +58,15 @@ jobs:
         body: |
           Automatically generated resume PDF
           Last updated: ${{ steps.date.outputs.DATE }}
-        files: david-aizenberg-resume.pdf
+        files: ./output/david-aizenberg-resume.pdf
         draft: false
         prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Upload PDF as workflow artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: resume-pdf
+        path: ./output/david-aizenberg-resume.pdf
+        retention-days: 7
