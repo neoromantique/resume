@@ -1,0 +1,127 @@
+/* LLM Slop Warning */
+
+body {
+  font-family: 'Liberation Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 9.5pt;
+  color: #333;
+  max-width: 100%;
+}
+
+/* Main heading */
+h1 {
+  margin: 0 0 4px 0;
+  color: #2c3e50;
+  font-size: 16pt;
+}
+
+/* Links styling */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+/* General paragraph settings */
+p {
+  margin: 3px 0;
+}
+
+/* List styling */
+ul {
+  margin: 3px 0;
+  padding-left: 12px;
+}
+
+li {
+  margin-bottom: 2px;
+  page-break-inside: avoid;
+}
+
+/* Bold text styling */
+strong {
+  color: #2c3e50;
+}
+
+/* Contact information line */
+h1 + p {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 8.5pt;
+}
+
+/* Summary section */
+p strong:first-child:not(:only-child) {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 2px;
+  font-size: 10pt;
+  color: #2c3e50;
+}
+
+/* Job title and company */
+p strong + em {
+  margin-top: 6px;
+  margin-bottom: 2px;
+  font-size: 9pt;
+  display: block;
+}
+
+/* Compact job items */
+li {
+  font-size: 8.5pt;
+  line-height: 1.2;
+}
+
+p + ul {
+  margin-top: 1px;
+  margin-bottom: 4px;
+}
+
+ul + p:has(strong + em) {
+  margin-top: 5px;
+}
+
+p:has(strong:first-child:not(:only-child)) + p {
+  margin-top: 2px;
+}
+
+em {
+  color: #555;
+}
+
+@page {
+  size: A4;
+  margin: 0.3in;
+}
+
+p, li {
+  orphans: 2;
+  widows: 2;
+}
+
+/* Core competencies list - horizontal layout */
+p:has(+ ul:first-of-type) + ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 12px;
+  margin-bottom: 2px;
+}
+
+p:has(+ ul:first-of-type) + ul li {
+  width: 49%;
+  margin-right: 1%;
+  box-sizing: border-box;
+  margin-bottom: 1px;
+}
+
+/* Job experience section */
+p:has(strong:contains("PROFESSIONAL EXPERIENCE")) {
+  margin-bottom: 3px;
+}
+
+/* Reduce space after each job's bullet points */
+ul:not(:last-child) {
+  margin-bottom: 3px;
+}

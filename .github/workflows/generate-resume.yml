@@ -1,0 +1,60 @@
+name: Generate Resume PDF
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+      - 'style.css'
+  workflow_dispatch:
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc wkhtmltopdf fonts-liberation
+    
+    - name: Generate PDF
+      run: |
+        # Convert markdown to HTML
+        pandoc README.md -s -c style.css --metadata pagetitle="David Aizenberg Resume" -o resume.html
+        
+        # Convert HTML to PDF
+        wkhtmltopdf \
+          --enable-local-file-access \
+          --page-size A4 \
+          --dpi 300 \
+          --margin-top 5 \
+          --margin-bottom 5 \
+          --margin-left 5 \
+          --margin-right 5 \
+          --print-media-type \
+          --no-background \
+          --disable-smart-shrinking \
+          resume.html david-aizenberg-resume.pdf
+    
+    - name: Get current date
+      id: date
+      run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+    
+    - name: Create Release
+      id: create_release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: resume-${{ steps.date.outputs.DATE }}
+        name: Resume Update ${{ steps.date.outputs.DATE }}
+        body: |
+          Automatically generated resume PDF
+          Last updated: ${{ steps.date.outputs.DATE }}
+        files: david-aizenberg-resume.pdf
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
