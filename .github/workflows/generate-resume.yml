@@ -38,7 +38,7 @@ jobs:
           -v $(pwd):/resume \
           -v $(pwd)/output:/output \
           ghcr.io/${{ github.repository_owner }}/resume-generator:latest \
-          improved-resume.md \
+          README.md \
           /output/david-aizenberg-resume.pdf \
           style.css
         
