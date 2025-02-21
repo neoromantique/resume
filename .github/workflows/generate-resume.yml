@@ -64,9 +64,3 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Upload PDF as workflow artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: resume-pdf
-        path: ./output/david-aizenberg-resume.pdf
-        retention-days: 7
