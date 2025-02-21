@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main, master ]
     paths:
-      - 'improved-resume.md'
+      - 'README.md'
       - 'style.css'
   workflow_dispatch:  # Allow manual triggering
 
